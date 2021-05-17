@@ -11,7 +11,7 @@ The reason for this is mainly
 # Lora-Version
 Diese Version ist die Beelogger-Version für LORA-Wan;
 
-@Todo:
+@Todo (german):
 - Abhängigkeiten der Bibliotheken aus dem lib Verzeichnis in die platform.ini schieben - sofern möglich. Änderungen an den Bibliotheken habe ich aktuell noch nicht untersucht.
 
 - Die Test-Sketches als Plattform-io tests etablieren.
