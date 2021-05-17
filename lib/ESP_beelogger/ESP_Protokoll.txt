@@ -1,0 +1,65 @@
+*
+... 
+
+Cmd:  AT
+
+PUH⸮
+Cmd:  AT
+
+
+AT
+
+
+busy p...
+
+OK
+
+Cmd:  AT+CIPMUX=0
+
+AT+CIPMUX=0
+
+OK
+
+Cmd:  ATE0
+
+ATE0
+
+OK
+Init!
+
+Cmd:  AT+CWJAP_CUR="Summ_summ","*******"
+
+WIFI CONNECTED
+WIFI GOT IP
+
+OK
+WLAN !
+
+Cmd:  AT+SLEEP=0
+
+
+OK
+
+Cmd:  AT+CIPSTART="TCP","testsystem.beelogger.de",80
+
+CONNECT
+Cmd:  AT+CIPSENDEX=300
+
+
+
+OK
+>GET /Rudi*****/beelogger6/beelogger_log.php?Passwort=*****&TempIn=22.75&TempOut=20.69&FeuchteIn=999.99&FeuchteOut=999.99&Licht=1015.55&Gewicht=2712&VBatt=12.38&VSolar=12.38&Check=5796.00 HTTP/1.1
+Host: testsystem.beelogger.de
+Connection: close
+
+
+Cmd:  AT+CWQAP
+
+
+OK
+
+Cmd:  AT+RST
+
+WIFI DISCONNECT
+
+OK

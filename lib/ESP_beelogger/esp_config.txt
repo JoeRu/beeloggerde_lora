@@ -1,0 +1,54 @@
+ESP Konfig 04.11.2020
+
+ESP Test Begin
+Baudrate: 9600Bd
+Sende Abfrage Firmware/Version an ESP8266: 'AT+GMR' 
+AT+GMR
+AT version:1.6.0.0(Feb  3 2018 12:00:06)
+SDK version:2.2.0(f28eaf2)
+compile time:Feb  6 2018 14:36:23
+Bin version(Wroom 02):1.6.0
+OK
+Setze Betriebsart 'Station' in ESP8266
+AT+CWMODE_DEF=1
+
+OK
+Sende suche Access Points an ESP8266: 'AT+CWLAP'
+AT+CWLAP
++CWLAP:(3,"my_Honeypot",-68,"3c:a6:2f:1b:78:c8",1,28,0,4,4,7,1)
++CWLAP:(3,"my_Honeypot",-56,"34:81:c4:22:46:93",1,33,0,4,4,7,0)
++CWLAP:(3,"Summ_summ",-65,"3e:a6:2f:1b:78:c8",1,28,0,4,4,7,1)
++CWLAP:(3,"Summ_summ",-54,"36:81:c4:22:46:93",1,33,0,4,4,7,0)
++CWLAP:(3,"Familie Rexha",-83,"cc:ce:1e:94:54:f0",1,28,0,4,4,7,1)
++CWLAP:(3,"KabelBox-FAA4",-75,"90:5c:44:d7:dd:80",1,11,0,4,4,7,1)
++CWLAP:(3,"DIRECT-5BC460 Series",-89,"32:cd:a7:9e:70:b8",1,32767,0,4,4,2,1)
++CWLAP:(3,"WLAN-Trog",-91,"f4:9f:f3:fd:c5:ee",1,45,0,4,4,7,1)
++CWLAP:(3,"FRITZ!Box 7520 GU",-88,"3c:a6:2f:2d:17:44",1,32767,0,4,4,7,1)
++CWLAP:(3,"FRITZ!Box 7430 YE",-86,"44:4e:6d:5d:59:cf",6,20,0,4,4,7,1)
++CWLAP:(3,"FRITZ!Box 7430 YE",-84,"cc:ce:1e:68:4d:dc",6,6,0,4,4,7,1)
++CWLAP:(0,"Vodafone Hotspot",-92,"b6:98:2b:71:36:dd",6,10,0,0,0,7,0)
++CWLAP:(0,"Vodafone Homespot",-93,"ba:98:2b:71:36:dd",6,10,0,0,0,7,0)
++CWLAP:(3,"KabelBox-36D8",-93,"b0:98:2b:71:36:dd",6,10,0,4,4,7,1)
++CWLAP:(3,"HITRON-FDE0-OG",-94,"70:4f:57:bc:87:8f",11,25,0,5,3,7,1)
++CWLAP:(3,"Reuters",-83,"94:6a:b0:48:38:b4",13,18,0,4,4,7,1)
+
+OK
+AT+CWLAPOPT=1,6
+
+OK
+AT+CWLAP
++CWLAP:("my_Honeypot",-52)
++CWLAP:("Summ_summ",-52)
++CWLAP:("my_Honeypot",-65)
++CWLAP:("Summ_summ",-65)
++CWLAP:("KabelBox-FAA4",-71)
++CWLAP:("FRITZ!Box 7430 YE",-79)
++CWLAP:("Familie Rexha",-82)
++CWLAP:("Reuters",-83)
++CWLAP:("FRITZ!Box 7430 YE",-85)
++CWLAP:("DIRECT-5BC460 Series",-86)
++CWLAP:("FRITZ!Box 7520 GU",-86)
++CWLAP:("DIRECT-9f-HP M477 LaserJet",-87)
++CWLAP:("WLAN-Trog",-88)
+
+OK

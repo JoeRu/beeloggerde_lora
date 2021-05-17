@@ -1,0 +1,7 @@
+Die Bibliotheken hier im Verzeichnis entsprechen dem Download von 
+https://beelogger.de/solar_und_universal/alle_programmcodes/bibliotheken/
+in der Version 03.05.2021
+
+@Todo:
+Schöner wäre es die Bibliotheksabhängigkeiten in die Platform.ini zu tun um sie aus dem lib-Verzeichnis raus zu bekommen.
+

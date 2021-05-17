@@ -1,0 +1,156 @@
+MULTI_GSM_EE_200327
+
+EE-PROM in use: 
+4056
+
+Bat. [V]: 13.14
+Sol. [V]: 2.54
+ W 1 [kg]: 2.97
+ W 2 [kg]: 5.22
+Loop
+Bat. [V]: 13.09
+Sol. [V]: 2.57
+DHT:
+ [C]: 14.30
+ [%RH]: 28.90
+DS18B20:
+ [C]: 12.00
+ W 1 [kg]: 2.97
+ W 2 [kg]: 5.22
+2020/03/27 11:49:18,12.0,14.3,14.3,12.0,28.9,28.9,,,2.97,5.22,13.09,2.57,0.00,,,
+ Nr.: 1  len=80
+Wakeup at: 11:51
+Loop
+Bat. [V]: 13.09
+Sol. [V]: 2.44
+DHT:
+ [C]: 14.40
+ [%RH]: 29.60
+DS18B20:
+ [C]: 12.00
+ W 1 [kg]: 2.97
+ W 2 [kg]: 5.22
+2020/03/27 11:49:39,12.0,14.4,14.4,12.0,29.6,29.6,,,2.97,5.22,13.09,2.44,10.00,,,
+ Nr.: 2  len=81
+GSM On!
+21-03-20
+>AT
+[1]AT
+
+OK
+
+>AT+IPR=9600
+[1]AT+IPR=9600
+
+OK
+
+>ATE0
+[1]ATE0
+
+OK
+
+>AT+CFUN=1
+[1]
+OK
+
+Init!
+>AT+CREG?
+[1]
++CREG: 0,4
+
+OK
+
+>AT+CREG?
+[1]
++CREG: 0,2
+
+OK
+
+>AT+CREG?
+[1]
++CREG: 0,2
+
+OK
+
+>AT+CREG?
+[1]
++CREG: 0,1
+
+OK
+
+>AT+CGATT?
+[1]
++CGATT: 1
+>AT+CSTT="internet.t-mobile"
+[1]
+OK
+
+>AT+CIICR
+[1]
+OK
+
+>AT
+[1]
+OK
+
+>AT+CIFSR
+[1]
+10.
+Start!
+internet.t-mobile
+community.beelogger.de
+GET /RudiMulti/Duo3/beelogger_log.php?
+Con?
+>AT+CIPSTART="TCP","community.beelogger.de",80
+[2]
+OK
+
+CONNECT OK
+TCP!
+>AT+CIPSEND
+[1]
+>
+GET /Rudi****/****/beelogger_log.php?PW=***&Z=1&A=1&ID=MULTI_GSM_EE_200327MULTI_GSM_EE_200327&M2_Data=&M2_Data=2020/03/27_11:49:18,12.0,14.3,14.3,12.0,28.9,28.9,,,2.97,5.22,13.09,2.57,0.00,,,2020/03/27_11:49:18,12.0,14.3,14.3,12.0,28.9,28.9,,,2.97,5.22,13.09,2.57,0.00,,,
+,2020/03/27_11:49:39,12.0,14.4,14.4,12.0,29.6,29.6,,,2.97,5.22,13.09,2.44,10.00,,,2020/03/27_11:49:39,12.0,14.4,14.4,12.0,29.6,29.6,,,2.97,5.22,13.09,2.44,10.00,,,
+ HTTP/1.1
+Host: community.beelogger.de
+Connection: close
+
+>
+[1]
+SEND OK
+HTTP/1.1 200 OK
+HTTP OK
+>
+[1]he
+⸮⸮⸮⸮⸮⸮ h2,h2c
+Connection: Upgrade, close
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+17
+1585309798TCok *
+Quittung: 
+1585309798TCok *
+>AT+CIPCLOSE
+[1]
+CLOSE OK
+
+
+Send: 7
+ Intervall: 2
+ Zyklus: 4
+>AT+CIPSHUT
+[1]
+SHUT OK
+
+>AT+CFUN=0
+[1]
++CPIN: NOT READY
+
+OK
+
+ Sende um 15
+ Intervall: 15
+Wakeup at: 12:04
