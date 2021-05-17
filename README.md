@@ -4,7 +4,7 @@ beelogger.de is a german Platform for measering hive-scales with an arduino nano
 
 The reason for this is mainly 
 - Code-Editor is much better in VC
-- Library-Maintanence is projekt dependend 
+- Library-Maintanence is project dependend 
 - much clearer compiler warnings
 - support for git 
 
