@@ -104,6 +104,14 @@ static const uint16_t PREFIX =   0x13;     //   https://www.thethingsnetwork.org
 // example: 0x13 = TTN
 //          0x01 = your own local Lora accesspoint
 
+// These callbacks are only used in over-the-air activation, so they are
+// left empty here (we cannot leave them out completely unless
+// DISABLE_JOIN is set in arduino-lmic/project_config/lmic_project_config.h,
+// otherwise the linker will complain).
+void os_getArtEui (u1_t* buf) { }
+void os_getDevEui (u1_t* buf) { }
+void os_getDevKey (u1_t* buf) { }
+
 // turn LMIC-Lib Debug on/off.  "On" with this line commented out
 #define NDEBUG 1
 
