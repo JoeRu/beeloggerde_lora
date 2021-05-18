@@ -2,8 +2,8 @@
 
 beelogger.de is a german Platform for measering hive-scales with an arduino nano. This is a port of the original beelogger.ino files to a visual code - PlatformIO compatible variant. 
 
-https://beelogger.de/solar_und_universal/alle_programmcodes/bibliotheken/
-https://beelogger.de/solar_und_universal/universal/lora/
+- https://beelogger.de/solar_und_universal/alle_programmcodes/bibliotheken/
+- https://beelogger.de/solar_und_universal/universal/lora/
 
 
 The reason for this is mainly 
