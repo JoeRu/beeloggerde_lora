@@ -8,12 +8,16 @@ The reason for this is mainly
 - much clearer compiler warnings
 - support for git 
 
+## Notes
+- LMIC Library is not up to date - but a newer Version will not fit on the Arduino Nano; 
+
 # Lora-Version
 Diese Version ist die Beelogger-Version für LORA-Wan;
 
 @Todo (german):
-- Abhängigkeiten der Bibliotheken aus dem lib Verzeichnis in die platform.ini schieben - sofern möglich. Änderungen an den Bibliotheken habe ich aktuell noch nicht untersucht.
+- Abhängigkeiten der Bibliotheken aus dem lib Verzeichnis in die platform.ini schieben - sofern möglich. (erledigt)
+- Änderungen an den Bibliotheken habe ich aktuell noch nicht untersucht.
 
-- Die Test-Sketches als Plattform-io tests etablieren.
+- Die Test-Sketches als Plattform-io Tests einbauen.
 
 
