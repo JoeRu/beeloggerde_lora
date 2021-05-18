@@ -16,8 +16,8 @@ Diese Version ist die Beelogger-Version für LORA-Wan;
 
 @Todo (german):
 - Abhängigkeiten der Bibliotheken aus dem lib Verzeichnis in die platform.ini schieben - sofern möglich. (erledigt)
-- Änderungen an den Bibliotheken habe ich aktuell noch nicht untersucht.
+- Änderungen an den Bibliotheken habe ich aktuell noch nicht untersucht. (geprüft - alles funktional - Update der Bibliotheken auf ggf. neuere Versionen muss nochmal geprüft werden)
 
-- Die Test-Sketches als Plattform-io Tests einbauen.
+- Die Test-Sketches als Plattform-io Tests einbauen. (offen)
 
 
