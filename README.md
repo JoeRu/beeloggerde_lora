@@ -2,6 +2,10 @@
 
 beelogger.de is a german Platform for measering hive-scales with an arduino nano. This is a port of the original beelogger.ino files to a visual code - PlatformIO compatible variant. 
 
+- https://beelogger.de/solar_und_universal/alle_programmcodes/bibliotheken/
+- https://beelogger.de/solar_und_universal/universal/lora/
+
+
 The reason for this is mainly 
 - Code-Editor is much better in VC
 - Library-Maintanence is project dependend 
@@ -16,8 +20,8 @@ Diese Version ist die Beelogger-Version für LORA-Wan;
 
 @Todo (german):
 - Abhängigkeiten der Bibliotheken aus dem lib Verzeichnis in die platform.ini schieben - sofern möglich. (erledigt)
-- Änderungen an den Bibliotheken habe ich aktuell noch nicht untersucht.
+- Änderungen an den Bibliotheken habe ich aktuell noch nicht untersucht. (geprüft - alles funktional - Update der Bibliotheken auf ggf. neuere Versionen muss nochmal geprüft werden)
 
-- Die Test-Sketches als Plattform-io Tests einbauen.
+- Die Test-Sketches als Plattform-io Tests einbauen. (offen)
 
 
