@@ -3,7 +3,7 @@
 .vscode/c_cpp_properties.json
 .vscode/launch.json
 .vscode/ipch
-my_Multi_LORA_config.h
+my_Multi_LORA_config*
 
 # Built application files
 *.apk
