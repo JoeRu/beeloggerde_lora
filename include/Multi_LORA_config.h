@@ -6,7 +6,7 @@
 // 2. aktive Sensoren für Temperatur/Feuchte in der Sensormatrix zuordnen
 // 3. Sensor für Temperatur Wägezelle festlegen
 //----------------------------------------------------------------
-#define Anzahl_Sensoren_DHT     1 // Mögliche Anzahl: '0','1','2'  --- Nr 1,2 ---  (Temperatur + Luftfeuchte)
+#define Anzahl_Sensoren_DHT     0 // Mögliche Anzahl: '0','1','2'  --- Nr 1,2 ---  (Temperatur + Luftfeuchte)
 
 #define Anzahl_Sensoren_Si7021  0 // Mögliche Anzahl: '0','1'      --- Nr 3 -----  (Temperatur + Luftfeuchte)
 
@@ -21,7 +21,7 @@
 // 2. Sensormatrix, hier kann die Zuordnung der Sensoren geändert werden
 // Nr 1 - 9 aus Liste oben auswählen, wenn kein Sensor gewünscht ist einfach "0" angeben
 // wenn kein Sensor für die Aussentemperatur gesetzt ist, wird automatisch der Temperatursensor der RTC verwendet
-#define             Aussenwerte                                          1    // 0 oder Nr. 1 - 11
+#define             Aussenwerte                                          0    // 0 oder Nr. 1 - 11
 // Sensor Beute 1
 #define             Beute1                                               0    // 0 oder Nr. 1 - 11
 // Sensor Beute 2
